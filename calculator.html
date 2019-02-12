@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CALCULATOR</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+  />
+  <body style="background-image:url(background.jpg);background-size: cover">
+    <div class="row">
+     <!--  padding bootsrap class not working in col -->
+      <div class="col-lg-6 mt-5 text-white p-3 text-center  " 
+      ><h1 class="display-3 ml-5" style="background-color:rgba(12, 12, 12, 0.678)">MAKE YOUR CALCULATION<br> EASY.</h1></div>
+
+      <div class="  main col-lg-6 text-center ">
+        <div class="d-inline-block mt-4 p-4 bg-dark rounded">
+          <input type="text mb-1 " class="input form-control m-1" value=" " id="sd" />
+          <input type="text mb-1" class="input-lg  form-control m-2" value="0" id="md" />
+          <div class="m-2">
+            <button class="btn btn-lg btn-light">1</button>
+            <button class="btn btn-lg btn-light">2</button>
+            <button class="btn btn-lg btn-light">3</button>
+            <button class="btn btn-lg btn-danger" onclick="erase()">C</button>
+            <button class="btn btn-lg text-white" style="background-color:rgb(230, 83, 15)">E</button>
+          </div>
+          <div class="m-2">
+            <button class="btn  btn-light btn-lg">4</button>
+            <button class="btn btn-lg btn-light">5</button>
+            <button class="btn btn-lg btn-light">6</button>
+            <button class="btn btn-lg btn-primary">+</button>
+            <button class="btn btn-lg  btn-primary">-</button>
+          </div>
+            <button class="btn btn-lg  btn-light">7</button>
+            <button class="btn-lg btn btn-light">8</button>
+            <button class="btn-lg btn btn-light">9</button>
+
+            <button class="btn btn-lg btn-primary">/</button>
+            <button class="btn btn-lg btn-primary">X</button>
+        
+            <div class="m-2">
+            <button class="btn btn-lg btn-light">0</button>
+            <button class="btn btn-lg btn-success px-4">=</button>
+            <button class="btn btn-lg text-white" style="background-color:goldenrod">
+                <img src="https://img.icons8.com/material/24/000000/square-root.png">
+            </button>
+            <button class="btn btn-lg " style="background-color:goldenrod"><img src="https://img.icons8.com/material/24/000000/pi.png" ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
