@@ -4,7 +4,8 @@
   "description": "A simple calculator",
   "main": "calculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build",
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/arpitmishra61/Calculator-Modified/issues"
   },
-  "deploy": "gh-pages -d build",
   "homepage": "https://github.com/arpitmishra61/Calculator",
   "dependencies": {
     "gh": "^1.17.5"
