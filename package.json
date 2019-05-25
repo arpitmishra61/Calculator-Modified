@@ -5,7 +5,7 @@
   "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/arpitmishra61/Calculator",
   "dependencies": {
-    "gh": "^1.17.5"
+    "gh-pages": "^2.0.1"
   }
 }
