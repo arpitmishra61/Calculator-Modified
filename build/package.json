@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitmishra61/Calculator-Modified.git"
+  },
+  "author": "Arpit Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arpitmishra61/Calculator-Modified/issues"
+  },
+  "homepage": "https://github.com/arpitmishra61/Calculator-Modified#readme",
+  "dependencies": {
+    "gh": "^1.17.5"
+  }
+}
