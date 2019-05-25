@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/arpitmishra61/Calculator-Modified/issues"
   },
-  "homepage": "https://github.com/arpitmishra61/Calculator",
+  "homepage": "https://github.com/arpitmishra61/Calculator-Modified",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
